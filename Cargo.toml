@@ -11,8 +11,8 @@ name = "quasi_macros"
 plugin = true
 
 [dependencies]
-quasi_codegen = { version = "*", path = "../quasi_codegen", default-features = false }
+quasi_codegen = { version = "*", git = "https://github.com/kbknapp/rust-quasi_codegen", default-features = false }
 
 [dev-dependencies]
-aster = "*"
-quasi = { version = "*", path = "../quasi" }
+aster = {git = "https://github.com/kbknapp/rust-aster"}
+quasi = { version = "*", git = "https://github.com/kbknapp/rust-quasi" }
